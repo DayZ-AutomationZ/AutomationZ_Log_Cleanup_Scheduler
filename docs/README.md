@@ -40,18 +40,6 @@ Just configure and run.
 
 ---
 
-## 📁 Folder Structure (auto-created)
-
-After first launch:
-AutomationZ_Log_Cleanup_Scheduler/
-├─ app/
-├─ config/
-│ └─ log_cleanup_config.json
-├─ logs/
-├─ run_windows.bat
-├─ run_linux_mac.sh
-└─ README.md
-
 All folders are created automatically if missing.
 
 ---
