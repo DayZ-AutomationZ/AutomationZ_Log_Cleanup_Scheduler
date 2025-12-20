@@ -75,12 +75,6 @@ chmod +x run_linux_mac.sh
 | Help        | Quick usage instructions       |
 
 Each tab is explained in detail below.
-
----
-
-# 🖼️ IMAGE-SPECIFIC README SECTIONS  
-*(Use these directly **below each screenshot** on GitHub or Wiki)*
-
 ---
 ## 🖼️ **Dashboard**  
 [![Log_Cleanup_Dashboard.png](https://i.postimg.cc/C1ZNQDHH/Log_Cleanup_Dashboard.png)](https://postimg.cc/HcgXJrNV)
