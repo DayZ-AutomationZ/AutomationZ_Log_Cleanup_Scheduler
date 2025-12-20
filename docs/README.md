@@ -237,6 +237,7 @@ Maximum wait time for FTP operations.
 
 ### Save Settings
 All changes are written to the configuration file immediately.
+---
 🧩 Part of AutomationZ Control Center
 This tool is part of the AutomationZ Admin Toolkit:
 
