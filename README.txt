@@ -1,49 +1,46 @@
-# LogCleanupScheduler (GUI)
+# AutomationZ Log Cleanup Scheduler
 
-A simple GUI **Log Delete Scheduler** (local + FTP/FTPS).
+AutomationZ Log Cleanup Scheduler is a **GUI-based automation tool** designed to safely and automatically clean up log files (or any other files) on both **local machines** and **FTP-based servers**.
 
-## What it does
-- Define multiple **Jobs**
-- Each job can clean:
-  - **Local** folders (Windows/Linux/Raspberry Pi)
-  - **FTP/FTPS** folders (remote server)
-- Schedule jobs by **days + time**
-- Exclude (blacklist) files like config files that live inside log folders.
+It is built for:
+- DayZ server administrators
+- Game server hosts
+- VPS / dedicated server owners
+- Website administrators
+- Anyone who needs scheduled file cleanup without scripting
 
-## Folder structure
-- `app/main.py` -> the GUI program
-- `config/log_cleanup_config.json` -> auto-created on first run
-- `logs/` -> app logs
+No mods required.  
+No Git knowledge required.  
+Just configure and run.
 
-## Requirements
-- Python 3.9+ recommended
-- Tkinter installed
-  - Windows/macOS usually includes it
-  - Debian/RPi: `sudo apt install python3-tk`
+---
 
-## Run
-### Windows
-Double-click `launchers/run_windows.bat`
-or run:
-`py app\main.py`
+## 🚀 What This Tool Does
 
-### Linux / Raspberry Pi
-`chmod +x launchers/run_linux.sh`
-`./launchers/run_linux.sh`
-or:
-`python3 app/main.py`
+- Automatically deletes files from configured folders
+- Works on:
+  - Local folders (local mode)
+  - Remote servers via FTP / FTPS
+- Supports multiple cleanup jobs
+- Supports file exclusion (blacklist)
+- Supports folder exclusion
+- Dry-Run mode for safe testing
+- Manual execution or scheduled execution
+- Full logging of all actions
 
-## Exclude patterns
-- Exclude files supports wildcards:
-  - `*.json`, `*.cfg`, `*.xml`, `keep_me.txt`
-- Exclude folders is by folder **name**:
-  - `config`, `settings`
+---
 
-## Safety
-Use **Dry run** first (enabled by default):
-- It will log what would be deleted
-- No deletion happens until you disable Dry run for that job
+## 🧠 Typical Use Case
 
-## Notes
-- FTP mode deletes files and will remove **empty subfolders** (unless excluded).
-- If your FTP server does not support `MLSD`, it falls back to `NLST` and a directory test.
+1. Your server generates log files continuously
+2. Log folders grow over time and waste disk space
+3. Some log folders also contain important config files
+4. You want to delete logs but **never touch configs**
+5. This tool removes only what is allowed — automatically
+
+---
+
+## 📁 Folder Structure (auto-created)
+
+After first launch:
+
