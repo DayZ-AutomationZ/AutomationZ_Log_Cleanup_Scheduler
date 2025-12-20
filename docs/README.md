@@ -65,7 +65,7 @@ All folders are created automatically if missing.
 Double-click:
 
 ### Linux / macOS
-```bash
+bash
 chmod +x run_linux_mac.sh
 ./run_linux_mac.sh
 
@@ -87,7 +87,7 @@ Each tab is explained in detail below.
 ---
 ## 🖼️ **Dashboard**  
 [![Log_Cleanup_Dashboard.png](https://i.postimg.cc/C1ZNQDHH/Log_Cleanup_Dashboard.png)](https://postimg.cc/HcgXJrNV)
-```markdown
+
 ## Dashboard
 
 
