@@ -88,8 +88,6 @@ Each tab is explained in detail below.
 
 ## 🖼️ **Dashboard**  
 [![Log_Cleanup_Dashboard.png](https://i.postimg.cc/C1ZNQDHH/Log_Cleanup_Dashboard.png)](https://postimg.cc/HcgXJrNV)
-
-```markdown
 ## Dashboard
 
 The Dashboard is the control center of the Log Cleanup Scheduler.
