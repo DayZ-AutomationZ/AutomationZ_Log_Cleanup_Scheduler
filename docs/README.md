@@ -48,9 +48,6 @@ AutomationZ_Log_Cleanup_Scheduler/
 ├─ config/
 │ └─ log_cleanup_config.json
 ├─ logs/
-├─ logs_cache/
-├─ reports/
-├─ state/
 ├─ run_windows.bat
 ├─ run_linux_mac.sh
 └─ README.md
