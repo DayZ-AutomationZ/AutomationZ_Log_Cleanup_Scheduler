@@ -1,4 +1,4 @@
-# AutomationZ Log Cleanup Scheduler
+# AutomationZ Log Cleanup Scheduler  [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R51QD7BU)
 
 AutomationZ Log Cleanup Scheduler is a **GUI-based automation tool** designed to safely and automatically clean up log files (or any other files) on both **local machines** and **FTP-based servers**.
 
