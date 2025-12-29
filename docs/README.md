@@ -230,6 +230,7 @@ This tool is part of the AutomationZ Admin Toolkit:
 - AutomationZ Config Diff 
 - AutomationZ Admin Orchestrator
 - AutomationZ Log Cleanup Scheduler
+- AutomationZ_Restart_Loop_Guard
 
 Together they form a complete server administration solution.
 
