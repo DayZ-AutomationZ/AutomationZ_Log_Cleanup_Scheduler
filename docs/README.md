@@ -223,6 +223,7 @@ All changes are written to the configuration file immediately.
 This tool is part of the AutomationZ Admin Toolkit:
 
 - AutomationZ Mod Update Auto Deploy (steam workshop)
+- AutomationZ Restart Companion (works together with Mod Update Auto Deploy)
 - AutomationZ Uploader
 - AutomationZ Scheduler
 - AutomationZ Server Backup Scheduler
